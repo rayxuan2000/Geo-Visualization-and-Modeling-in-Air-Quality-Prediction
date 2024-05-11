@@ -10,8 +10,27 @@ This project is about applying regression models on a health-related dataset con
 ## Data and Code
 The data and code has been uploaded under this repo.
 
+The basic structure of the data is as follows:
+-NO value	
+-NO2 value	
+-PM2p5 value	
+-geometry	
+-road_type	
+-zone	
+-tract_name	
+-GEOID	
+-state	
+-county	
+-pop_den	
+-wind	
+-temp	
+-Longitude	
+-Latitude	
+-Respiratory_HI	
+-Pt_CANCR
+
 ## Summary
--
--
+- Implemented geo-related coding and map visualization with a public health dataset to gain data-driven insights about high health risks.
+- 
 -
 -
