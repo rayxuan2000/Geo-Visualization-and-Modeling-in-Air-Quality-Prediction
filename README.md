@@ -33,4 +33,4 @@ The basic structure of the data is as follows:
 - Implemented geo-related coding and map visualization with a public health dataset in Oakland to gain data-driven insights about high health risks.
 - Performed data cleaning on the GeoDataFrame and grabbed street data before writing a user-defined function to incorporate spatial information.
 - Mapped city structure such as different types of roads out and plotted the overall heatmap as regard to hazard air pollution.
-- Combined bagging and boosting machine learning models (achieved RMSE = 2.16, 5.87 and 1.38), with feature importance, permutation importance and SHAP value to illustrate indicators of NO2, NO and PM2.5 pollution.
+- Combined cross-validated bagging and boosting machine learning models (achieved optimal RMSE = 2.16, 5.87 and 1.38), with feature importance, permutation importance and SHAP value to illustrate indicators of NO2, NO and PM2.5 pollution.
