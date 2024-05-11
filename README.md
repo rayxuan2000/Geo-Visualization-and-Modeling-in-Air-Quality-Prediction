@@ -1,4 +1,4 @@
-# Air-Quality-Prediction-and-Map-Visualization
+# Geo-Visualization-and-Modeling-in-Air-Quality-Prediction
 
 ## Introduction
 This project is about applying regression models on a health-related dataset containing air quality in a given coordinate on the map. The main purpose of this project is to 
@@ -30,7 +30,7 @@ The basic structure of the data is as follows:
 -Pt_CANCR
 
 ## Summary
-- Implemented geo-related coding and map visualization with a public health dataset to gain data-driven insights about high health risks.
-- 
--
--
+- Implemented geo-related coding and map visualization with a public health dataset in Oakland to gain data-driven insights about high health risks.
+- Performed data cleaning on the GeoDataFrame and grabbed street data before writing a user-defined function to incorporate spatial information.
+- Mapped city structure such as different types of roads out and plotted the overall heatmap as regard to hazard air pollution.
+- Combined bagging and boosting machine learning models with feature imporatance, permutation imporatance and SHAP value to illustrate indicators of NO2, NO and PM2.5 pollution.
