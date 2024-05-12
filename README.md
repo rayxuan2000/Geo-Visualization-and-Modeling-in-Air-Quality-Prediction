@@ -32,6 +32,8 @@ The basic structure of the data is as follows:
 # Something interesting - SHAP value
 ![](SHAP.png)
 
+More details are be found [here](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html).
+
 ## Summary
 - Implemented geo-related coding and map visualization with a public health dataset in Oakland to gain data-driven insights about high health risks.
 - Performed data cleaning on the GeoDataFrame and grabbed street data before writing a user-defined function to incorporate spatial information.
