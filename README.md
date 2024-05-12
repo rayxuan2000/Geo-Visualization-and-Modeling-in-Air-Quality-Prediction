@@ -29,6 +29,9 @@ The basic structure of the data is as follows:
 -Respiratory_HI	
 -Pt_CANCR
 
+# Something interesting - SHAP value
+![](SHAP.png)
+
 ## Summary
 - Implemented geo-related coding and map visualization with a public health dataset in Oakland to gain data-driven insights about high health risks.
 - Performed data cleaning on the GeoDataFrame and grabbed street data before writing a user-defined function to incorporate spatial information.
