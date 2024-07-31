@@ -35,6 +35,12 @@ The basic structure of the data is as follows:
 More details are be found [here](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html).
 The summary plot combines feature importance with feature effects. Each point on the summary plot is a Shapley value for a feature and an instance. The position on the y-axis is determined by the feature and on the x-axis by the Shapley value (negative contribution or positive contribution). The color represents the value of the feature from low to high. Overlapping points are jittered in y-axis direction, so we get a sense of the distribution of the Shapley values per feature. The features are ordered according to their importance, the first one being the most important and the last being the least important one.
 
+对于每个预测样本，模型都产生一个预测值，SHAP value就是该样本中每个特征所分配到的数值。假设第i个样本为xi，第i个样本的第j个特征为xi_j，模型对该样本的预测值为yi，整个模型的基线（通常是所有样本的目标变量的均值）为y_base，那么SHAP value服从以下等式：
+```
+y_{i} = y_{base}+f(x_{i1})+f(x_{i2})+...+f(x_{ik})
+```
+其中f(x_ij)为x_ij的SHAP值。直观上看，f(xi,1)就是第i个样本中第1个特征对最终预测值yi的贡献值，当f(xi,1)>0，说明该特征提升了预测值，也正向作用；反之，说明该特征使得预测值降低，有反作用。传统的feature importance只告诉哪个特征重要，但我们并不清楚该特征是怎样影响预测结果的。SHAP value最大的优势是SHAP能对于反映出每一个样本中的特征的影响力，而且还表现出影响的正负性。
+
 ## About permutation importance
 ![](permutation_importance.png)
 
