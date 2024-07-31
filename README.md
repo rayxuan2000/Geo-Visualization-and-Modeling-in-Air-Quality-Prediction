@@ -36,7 +36,7 @@ More details are be found [here](https://shap.readthedocs.io/en/latest/example_n
 The summary plot combines feature importance with feature effects. Each point on the summary plot is a Shapley value for a feature and an instance. The position on the y-axis is determined by the feature and on the x-axis by the Shapley value (negative contribution or positive contribution). The color represents the value of the feature from low to high. Overlapping points are jittered in y-axis direction, so we get a sense of the distribution of the Shapley values per feature. The features are ordered according to their importance, the first one being the most important and the last being the least important one.
 
 ## About permutation importance
-
+![](permutation_importance.png)
 
 ## Summary
 - Implemented geo-related coding and map visualization with a public health dataset in Oakland to gain data-driven insights about high health risks.
